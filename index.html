@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Tracker MCN Affiliate Accesstrade</title>
+  <link rel="icon" href="https://play-lh.googleusercontent.com/rZnu_Azh5wRmmdXdq-3hl_YT3yGlUZjwEt9r3pwn-7WiD_oUzrlrwF-Q0ro67c4qTVI7Apvx-bc1lBAf0tes=w480-h960-rw" />
+  <style>
+    /* Reset margin dan padding, serta atur tinggi penuh */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100%;         /* gunakan min-height agar bisa berkembang */
+      background-color: #eee;
+    }
+
+    /* Container iframe mengisi seluruh area viewport */
+    .iframe-container {
+      width: 100%;
+      height: 100vh;            /* fallback untuk browser lama */
+      height: 100dvh;           /* dynamic viewport height untuk mobile modern */
+      overflow: auto;           /* mengizinkan scroll jika konten melebihi container */
+    }
+
+    /* iframe diatur full dan tidak ada border */
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+      min-height: 100%;         /* memastikan tinggi minimal penuh */
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe
+      id="app"
+      src="https://script.google.com/a/macros/interspace.co.id/s/AKfycbzd0rMj5PldUnCXjrsF3HwyBdNhdEFCU2BZIfOlLGaY0jcW0aFN--poE0Mkz8v491jw/exec"
+      scrolling="yes"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allow="fullscreen; camera; microphone; display-capture; geolocation;">
+    </iframe>
+  </div>
+</body>
+</html>
